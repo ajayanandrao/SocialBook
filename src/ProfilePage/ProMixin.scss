@@ -1,0 +1,67 @@
+@import "./../Mixin.scss";
+
+@include desk{
+    .profile-container-bg{
+        width: 940px !important;
+    }
+    
+}
+
+@include desk2{
+    .profile-container-bg{
+        width: 700px !important;
+    }
+    .left{
+        .btn-left{
+            display: block !important;
+        }
+        .left-container{
+            display: none !important;
+        }
+    }
+
+    .right-btn{
+        display: none;
+    }
+    .btn-mg{
+        margin: 0px !important;
+    }
+    .d-container{
+        display: block !important;
+    }
+    .container-three{
+        margin-top: 70px !important;
+    }    
+    .other-text2{
+        width: 100% !important;
+    }
+
+    .sec-two-inner-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-two-icon-div{
+        margin:2rem 0rem;
+        justify-content: start !important;
+    }
+    .section-two{
+        flex-direction: column;
+        .icon-di{
+            justify-content: start !important;
+            margin-top: 1rem;
+        }
+    }
+}
+
+@include tab{
+    .profile-container-bg{
+        width: 500px !important;
+    }
+      
+   
+}
+@include mobile{
+    .profile-container-bg{
+        width: 100% !important;
+    }
+}

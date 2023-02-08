@@ -1,0 +1,34 @@
+{/* <div className="card-container">
+
+            <div className="profile-container">
+              <div className="img"></div>
+              <div className="profile-name">Ajay Anandrao</div>
+              <div className="profile-option-container">
+                <MdModeEdit className="react-icons" />
+                <MdDelete className="react-icons" />
+              </div>
+            </div>
+
+            <div className="post-data-container">
+              <span className="post-data">Post Your Here</span>
+            </div>
+
+            <div className="comment-container">
+              <div className="like-container">
+                <BsFillHeartFill
+                  onClick={heartRed}
+                  id="heart"
+                  className="react-icons"
+                  style={{ color: "white" }}
+                />
+              </div>
+              <div className="like-container">
+                <FaCommentDots className="react-icons" />
+              </div>
+              <div className="like-container">
+                <FaShare className="react-icons" />
+              </div>
+            </div>
+          </div> */}
+          
+          ==================================

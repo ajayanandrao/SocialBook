@@ -1,0 +1,202 @@
+@import "./../../Mixin.scss";
+
+.post-container {
+    width: 500px;
+    // height: 130px;
+    background: #0B243B;
+    border-radius: 1rem;
+    overflow: hidden;
+    // padding: 1rem;
+    margin: 0.5rem 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    .post-inner {
+        padding: 1rem;
+    }
+
+    .user-post-input {
+        flex: 1;
+        width: calc(55%);
+        height: 40px;
+        border: none;
+        background: #0a1929;
+        color: white;
+        border-radius: 30px;
+        margin: 0 1rem;
+        padding-inline-start: 15px;
+        transition: 0.5s ease-in-out;
+
+    }
+
+    .user-post-input:focus {
+        outline: none;
+        width: calc(90% - 8rem);
+    }
+
+    .post-name {
+        font-weight: 500;
+        color: #0174DF;
+        cursor: pointer;
+    }
+
+
+    .post-add-container {
+        // background: red;
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+
+        .post-category-contaner {
+            flex: 1;
+            // background-color: #4B088A;
+            border-radius: 30px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0a1929;
+            }
+
+            .post-cat-img {
+                width: 25px;
+                cursor: pointer;
+            }
+
+            .post-cat-title {
+                font-weight: 500;
+                margin: 0 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .postImg-div {
+        width: 100%;
+        // max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+
+        .postImg {
+            max-width: 100%;
+            max-height: 300px;
+        }
+    }
+
+    .user-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+// Card Container Start
+
+.outer-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0.5rem;
+}
+.m{
+    margin:0.4rem 0rem !important;
+}
+.card-container {
+    width: 100%;
+    background: #0B243B;
+    border-radius:1rem;
+    padding: 1rem;
+    // margin: 0.5rem 0rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+
+        .img {
+            width: 50px;
+            height: 50px;
+            background: #4B088A;
+            border-radius: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .profile-name {
+            margin-left: 1rem;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .profile-option-container {
+            flex: 1;
+            display: flex;
+            justify-content: end;
+        }
+    }
+
+    .post-data-container {
+        width: 100%;
+        // height: 100px;
+        margin: 1rem 0rem;
+
+        // background: darkgoldenrod;
+        .post-data {
+            font-size: 14px;
+        }
+
+        .post-data-div {
+            display: flex;
+            justify-content: center;
+
+            .post-data-img {
+                max-width: 100%;
+                max-height: 400px;
+            }
+        }
+
+    }
+
+    .comment-container {
+        display: flex;
+
+        .like-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}
+
+//Dropdown
+
+
+@include mobile {
+    .post-container {}
+
+    .card-container {
+        width: 100%;
+    }
+}
+
+@include mobile-370 {
+    .post-category-contaner {
+        // display: none !important;
+
+        .post-cat-title {
+            font-weight: 500;
+            margin: 0 !important;
+            margin-left: 0.5rem !important;
+            cursor: pointer;
+        }
+    }
+}

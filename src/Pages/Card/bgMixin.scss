@@ -1,0 +1,22 @@
+@import "./../../Mixin.scss";
+
+@include desk2{
+    .left{
+        display: none !important;
+    }
+}
+@include tab{
+    
+.wrapper{
+    display: block !important;
+}    
+}
+@include mobile-900{
+    .right {
+        display: none !important;
+    }
+}
+
+@include mobile{
+
+}

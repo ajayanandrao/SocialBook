@@ -1,0 +1,35 @@
+@import "./../../Mixin.scss";
+
+@include desk2{
+    
+    .ui-div {
+        flex: 1 !important;
+    }
+    .bg-form {
+        background-image: url(./../../img/ui/w2.png) !important;
+        background-position: center !important;
+    }
+    .ui-velE {
+        display: none ;
+    }
+}
+
+@include tab{
+    
+    .ui-div{
+        display: none !important;
+    }
+    .bg-form{
+        flex: 1;
+        margin: 1rem;
+        // display: none  !important;
+    }
+}
+
+@include mobile {
+    .bg-form {
+        padding: 2rem 1rem !important;
+        width: 300px !important;
+        height: 355px;
+    }
+}

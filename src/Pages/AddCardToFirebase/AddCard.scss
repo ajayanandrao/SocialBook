@@ -1,0 +1,137 @@
+@import "./AddCardMixin.scss";
+
+.bg-img {
+    // width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url(./../../img/ui/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    display: flex;
+
+    .ui-div {
+        flex: 2;
+        height: 480px;
+        display: flex;
+        // background: red;
+        align-items: center;
+        justify-content: center;
+        color: black;
+
+        .ui-phone {
+            // background: blue;
+            // flex: 1;
+            width: 275px;
+            height: 350px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./../../img/ui/mobiles2.png);
+        }
+
+        .ui-velE {
+            width: 165px;
+            // height: 211px;
+            // background: red;
+            .img-vel-e {
+                display: flex;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .form-div {
+        flex: 2;
+        height: 550px;
+        display: flex;
+        align-items: center;
+        // background: red;
+        justify-content: center;
+
+        .bg-form {
+            padding: 1rem;
+            width: 430px;
+            height: 355px;
+            background-image: url(./../../img/ui/fbg3.png);
+            background-size: cover;
+            // background: linear-gradient(to top,#7922ca 100%, #76b5e6);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 1rem;
+            // color: #96bee6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .form-check-input {
+                box-shadow: 0px 4px 4px #00000021;
+            }
+
+            .form-outline {
+                display: flex;
+                align-items: center;
+                background-color: white;
+                border-radius: 5px;
+                box-shadow: 0px 4px 4px #00000021;
+            }
+
+            .react-icon {
+                font-size: 22px;
+                color: #848484;
+                margin-left: 8px;
+                cursor: pointer;
+            }
+
+            .btn-circle {
+                width: 30px;
+                height: 30px;
+                background: white;
+                border-radius: 50%;
+                padding: 3px;
+                box-shadow: 0px 4px 4px #00000021;
+                color: #5c4ad9;
+                transition: 0.3s ease-in-out;
+                margin: 0px 10px;
+
+                &:hover {
+                    transform: translateY(-3px);
+                }
+            }
+
+            .form-focus {
+                width: 260px;
+
+                border-radius: 4px;
+                height: 40px;
+                border: none;
+                background: white;
+                border-top: 1px solid white;
+            }
+
+            .form-control:focus {
+                border-color: none;
+                box-shadow: none;
+            }
+
+            .form-focus::placeholder {
+                color: #959a9e;
+            }
+
+            .btn-color {
+                background-color: #76b5e6;
+                color: white;
+                border: none;
+                box-shadow: 0px 4px 4px #00000021;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    transform: translateY(-3px);
+                    background-color: #80c5fa;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@import "./bgMixin.scss";
+.wrapper{
+    display: flex;
+
+    .left{
+        flex: 1;
+        padding: 1rem;
+        .left-items-div{
+            cursor: pointer;
+            width: 110px;
+            font-size: 16px;
+            .left-icon{
+                font-size: 22px;
+                margin: 10px;
+            }
+        }
+    }
+    
+    .bg-center{
+        flex: 2;
+    }
+    
+    .right {
+        flex: 1;
+        padding: 1rem;
+        .sugges-div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .right-seeall {
+                font-size: 14px;
+            }
+        }
+    
+        .user-sugges-div {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+            justify-content: space-between;
+            .user-sugges-profile {
+                display: flex;
+                align-items: center;
+    
+                .user-sugges-img {
+                    width: 30px;
+                    height: 30px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+    
+                .user-sugges-name {
+                    font-size: 14px;
+                    margin: 0 0.5rem;
+                }
+            }
+    
+            .user-sugges-follow {
+                font-size: 12px;
+                color: #2e96e2;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+
+

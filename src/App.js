@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.scss';
+import Home from './Home/Home';
+import AddCard from './Pages/AddCardToFirebase/AddCard';
+import AddCardTwo from './Pages/AddCardToFirebase/AddCardTwo';
+import Card from './Pages/Card/Card';
+import Navbar from './Pages/Navbar/Navbar';
+import Profile from './Pages/Profile/Profile';
+import UserProfile from './Pages/UserProfile/UserProfile';
+import ProfilePage from './ProfilePage/ProfilePage';
+import SignIn from './Signin/SignIn';
+import SignInPage from './Signin/SignInPage';
+import Signup from './Signup/Signup';
+import SignupPage from './Signup/SignupPage';
+import Work from './Work';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<SignInPage/>}/>
+        <Route path='home' element={<Home/>}/>
+        <Route path='signup' element={<SignupPage/>}/>
+        <Route path='card' element={<Card/>}/>
+        <Route path='profile' element={<UserProfile/>}/>
+      </Routes>
+    </Router>
+      {/* <Profile/> */}
+      {/* <ProfilePage/> */}
+      {/* <AddCardTwo/> */}
+      {/* <AddCard/> */}
+      {/* <Card /> */}
+      {/* <Signup/> */}
+
+    </>
   );
 }
 

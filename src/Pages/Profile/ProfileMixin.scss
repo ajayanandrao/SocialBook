@@ -1,0 +1,242 @@
+@import "./../../Mixin.scss";
+
+@include desk{
+    .profile-bg-div{
+        width: 920px !important;
+        height: 600px;
+       
+
+        .profile-wrapper-div{
+           
+
+            .left-profile-wrapper-div{
+                // background: green;
+           
+                .left-data-div{
+                    
+                    
+                    .left-count{
+                       
+                    }
+                    .left-text{
+                        
+                    }
+                }
+            }
+
+            
+            .center-profile-wrapper-div{
+               
+                // background:  blue;
+              .center-profile-wrapper-div, h1{
+                font-size: 36px;
+              }
+            }
+            
+
+            .right-profile-wrapper-div{
+                // background: red;
+                
+                .pro-btns{
+                }
+                .btn-color-message{
+                   
+                }
+                .btn-color-connect{
+                  
+                }
+            }
+        }
+    }
+    .support-div{
+        // background: red;
+        flex: 0 !important;
+        // width: 810px !important;
+        flex-direction: column !important;
+        .support-div2{
+            width: 100% !important;
+            line-height: 35px;
+        }
+        .support-div3{
+            flex: 0 !important;
+            justify-content: start !important;
+           margin-top: 15px;
+        }
+        .support-text {
+            font-size: 30px !important;
+        }
+        .support-text2{
+            font-size: 30px ;
+        }
+    }
+}
+
+@include desk2{
+    .profile-bg-div{
+        width: 700px !important;
+        height: 600px;
+       
+
+        .profile-wrapper-div{
+           
+
+            .left-profile-wrapper-div{
+                flex: 0 !important;
+                .left-visibility-btn{
+                    display: block !important;
+                    background: #41b6e4;
+                    border: none;
+                    transition: 0.3s ease-in-out;
+                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+                    &:hover{
+                        background: #3593b8;
+                        transform: translateY(-3px);
+                    }
+                }
+                .left-data-div{
+                    display: none;    
+                    
+                    .left-count{
+                       
+                    }
+                    .left-text{
+                        
+                    }
+                }
+            }
+
+            
+            .center-profile-wrapper-div{
+               
+
+              .center-profile-wrapper-div, h1{
+                
+              }
+            }
+            
+
+            .right-profile-wrapper-div{
+                flex: 0 !important;
+                .right-profile-visibility-div{
+                    display: block !important;
+                    .right-visibility-btn{
+                        display: flex !important;
+                        justify-content: end;
+                        background: #32325d;
+                        border: none;
+                        transition: 0.3s ease-in-out;
+                        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+                        &:hover{
+                            background: #20203d;
+                            transform: translateY(-3px);
+                        }
+                    }
+                    
+                }
+                .btn-visible{
+                    display: none;
+                }
+                .pro-btns{
+                    
+                }
+                .btn-color-message{
+                   
+                }
+                .btn-color-connect{
+                  
+                }
+            }
+        }
+    } 
+}
+
+@include tab{
+    .profile-bg-div{
+        width: 480px !important;
+        height: 600px;
+       
+        .center-profile-wrapper-div2{
+            text-align: center;
+            display: block !important;
+        }
+        .profile-wrapper-div{
+           
+
+            .left-profile-wrapper-div{
+                flex: 1 !important;
+                .left-visibility-btn{
+                    display: block !important;
+                    background: #41b6e4;
+                    border: none;
+                    transition: 0.3s ease-in-out;
+                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+                    &:hover{
+                        background: #3593b8;
+                        transform: translateY(-3px);
+                    }
+                }
+                .left-data-div{
+                    display: none;    
+                    
+                    .left-count{
+                       
+                    }
+                    .left-text{
+                        
+                    }
+                }
+            }
+
+            
+            .center-profile-wrapper-div{
+               
+                
+              .center-profile-wrapper-div, h1{
+                font-size: 22px;
+                display: none !important;
+              }
+            }
+            
+
+            .right-profile-wrapper-div{
+                flex: 1 !important;
+                .right-profile-visibility-div{
+                    display: block !important;
+                    .right-visibility-btn{
+                        display: flex !important;
+                        justify-content: end;
+                        background: #32325d;
+                        border: none;
+                        transition: 0.3s ease-in-out;
+                        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+                        &:hover{
+                            background: #20203d;
+                            transform: translateY(-3px);
+                        }
+                    }
+                    
+                }
+                .btn-visible{
+                    display: none;
+                }
+                .pro-btns{
+                    
+                }
+                .btn-color-message{
+                   
+                }
+                .btn-color-connect{
+                  
+                }
+            }
+        }
+    } 
+}
+
+@include mobile{
+    .profile-bg-div{
+        width: 100% !important;
+        height: 600px;
+  
+    } 
+}
