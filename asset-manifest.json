@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SocialBook/static/css/main.48d9b9e4.css",
+    "main.js": "/SocialBook/static/js/main.3e740c13.js",
+    "static/js/787.6cf5c74a.chunk.js": "/SocialBook/static/js/787.6cf5c74a.chunk.js",
+    "static/media/203.png": "/SocialBook/static/media/203.54538d22328dc09b6373.png",
+    "static/media/ee.jpg": "/SocialBook/static/media/ee.8a8d9d33b87f315cb186.jpg",
+    "static/media/bg5.png": "/SocialBook/static/media/bg5.4856b36d86b47688290f.png",
+    "static/media/c4.png": "/SocialBook/static/media/c4.87468f023b4dfe9eaf06.png",
+    "static/media/mobiles2.png": "/SocialBook/static/media/mobiles2.61af580a864f36a5b7da.png",
+    "static/media/velEs1.png": "/SocialBook/static/media/velEs1.64f2904e7c49f098ecee.png",
+    "static/media/probg3.jpg": "/SocialBook/static/media/probg3.a811f83b389186c38007.jpg",
+    "static/media/200.png": "/SocialBook/static/media/200.6630fa2532637ce39dbd.png",
+    "static/media/w2.png": "/SocialBook/static/media/w2.2df4f3dbd44a7d66c957.png",
+    "static/media/fbg3.png": "/SocialBook/static/media/fbg3.35404804c22c09573c18.png",
+    "index.html": "/SocialBook/index.html",
+    "main.48d9b9e4.css.map": "/SocialBook/static/css/main.48d9b9e4.css.map",
+    "main.3e740c13.js.map": "/SocialBook/static/js/main.3e740c13.js.map",
+    "787.6cf5c74a.chunk.js.map": "/SocialBook/static/js/787.6cf5c74a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48d9b9e4.css",
+    "static/js/main.3e740c13.js"
+  ]
+}
