@@ -18,10 +18,10 @@ function App() {
   
   return (
     <>
-    <Router>
+    <Router basename="/SocialBook">
       <Navbar />
       <Routes>
-        <Route path='/' element={<SignInPage/>}/>
+        <Route exact path='/' element={<SignInPage/>}/>
         <Route path='home' element={<Home/>}/>
         <Route path='signup' element={<SignupPage/>}/>
         <Route path='card' element={<Card/>}/>
